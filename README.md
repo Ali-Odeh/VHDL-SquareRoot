@@ -3,9 +3,6 @@
 ## Overview
 This repository contains a VHDL implementation of an 8-bit integer square root calculator using a finite state machine (FSM), based on an Algorithmic State Machine (ASM) chart. It includes both design and testbench code for training evaluation.
 
-## Repository Name
-**Suggested Repository Name**: `VHDL-SquareRoot`
-
 ## Files
 - **design.vhd**: Main VHDL file with entity `SQR` and a behavioral architecture using states `T_Initial`, `T0`, `T1`, `T2`, `T3`, and `T4`. This is the core design code for the square root calculator.
 - **testbench.vhd**: Testbench that simulates all 8-bit inputs (0-255) with a 4 ns clock period and reset/start signals. This is provided for verifying the design.
@@ -29,5 +26,4 @@ This repository contains a VHDL implementation of an 8-bit integer square root c
 - The FSM ensures proper sequencing of the algorithm.
 - The design and testbench are included for training assessment purposes.
 
-## Author
-- Ali Odeh (ID: 12112361)
+
