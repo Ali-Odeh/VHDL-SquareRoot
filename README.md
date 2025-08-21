@@ -6,7 +6,7 @@ This repository contains a VHDL implementation of an 8-bit integer square root c
 ## Files
 - **design.vhd**: Main VHDL file with entity `SQR` and a behavioral architecture using states `T_Initial`, `T0`, `T1`, `T2`, `T3`, and `T4`. This is the core design code for the square root calculator.
 - **testbench.vhd**: Testbench that simulates all 8-bit inputs (0-255) with a 4 ns clock period and reset/start signals. This is provided for verifying the design.
-- **images/asm_chart.png** (optional): Visual ASM chart of the square root algorithm.
+- **images/asm_chart.png**: Visual ASM chart of the square root algorithm.
 
 ## ASM Chart Summary
 - **T0**: Initializes with `a = X`, `q = 1`, `d = 3` when `S = 1`.
